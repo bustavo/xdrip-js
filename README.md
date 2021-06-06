@@ -247,3 +247,20 @@ VersionRequestMsg = {
 };
 ```
 
+#### FIREFLY TRANSMITTERS
+
+To set default timers of 10-day sensor session & 2-hour warmup
+
+```javascript
+resetMsg = {
+  type: 'ResetTxFireflyDefault'
+};
+```
+
+To set extended timers of 60-day sensor session & 50-minute warmup
+
+```javascript
+resetMsg = {
+  type: 'ResetTxFireflyExtended'
+};
+```
